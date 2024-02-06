@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "bradlc.vscode-tailwindcss",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
+    "PKief.material-icon-theme",
+    "sdras.vue-vscode-snippets",
+    "YoavBls.pretty-ts-errors"
+  ]
+}
