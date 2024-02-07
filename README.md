@@ -1,22 +1,15 @@
-# Vue 3 Starter Kit
+# The Dictator App
 
-This starter kit provides for Vue 3 projects. It uses Vite as a build tool and includes the following dependencies:
+I built this quick demo to test out the speech-to-text dictation. It's live here: https://dictator-by-aron.netlify.app/
 
-- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+It uses Web Speech API: SpeechRecognition (or webkitSpeechRecognition) for listening, and SpeechSynthesis for speaking.
 
-- **Prettier**: An opinionated code formatter that enforces a consistent code style.
+It can:
 
-  - `prettier-plugin-tailwindcss`: A Prettier plugin for formatting Tailwind CSS code.
-
-- **ESLint**: A pluggable linting utility for JavaScript and TypeScript.
-
-  - `eslint-plugin-vue`: ESLint plugin for Vue.js projects.
-
-  - `eslint-config-prettier`: Turns off ESLint rules that conflict with Prettier.
-
-  - `typescript-eslint`: ESLint plugin for TypeScript support.
-
-- **Axios**: A promise-based HTTP client to send HTTP requests.
+- type based on speech
+- change input language
+- font size becomes smaller as the text becomes longer
+- read out what just has been typed (if supported... sadly it's not supported for Danish)
 
 ## Requirements
 
